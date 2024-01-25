@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* 共通のスタイル */
+body{
+  text-align: left;
+  color: #000;
+  background-color: #fff;
+}
+
+header {
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+  position: fixed;
+  z-index: 999;
+}
+
+header h1{
+  width: 20px;
+  float: left;
+}
+
+#nav_box {
+  margin: 0 0 0 auto;
+  height: 50px;
+  width: 430px;
+}
+
+#nav {
+  list-style: none;
+  overflow: hidden;
+}
+ 
+#nav li {
+  width: 140px;
+  text-align: center;
+  background-color: #333;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 2px;
+}
+ 
+#nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#top {	
+  background: url(../images/top_img.jpg) no-repeat 0 0 / cover;
+  width: 100%;
+  padding-top: 56%;
+}
+
+.container {
+  width: 100%;
+  display: table;
+  width: 100%;
+}
+.box{
+  width: 50%;
+  height: 100vh;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.box h3{
+  padding: 1rem 0;
+}
+.box table{
+  /* width: 20%; */
+  margin: 0 auto;
+}
+.box td{
+  padding: 1rem;
+}
+.box1{}
+.box2{
+  /* padding: 2rem 0; */
+}
+#intr{}
+#intr img{
+  width: 30%;
+  height: auto;
+}
+#intr p{}
+.prod_item{}
+.prod_item img{
+  width: 20%;
+}
+footer {
+  text-align: right;
+}
