@@ -1,277 +1,304 @@
 <!DOCTYPE html>
 
 <html lang="ja">
+  <head>
+    <meta charset="utf-8" />
 
-<head>
+    <title>portfolio</title>
 
-  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/humberger.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap"
+      rel="stylesheet"
+    />
 
-  <title>portfolio</title>
+    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+  </head>
 
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/common.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+  <body>
+    <header>
 
-  <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
-  <script type="text/javascript" src="./js/common.js"></script>
+      <!-- <div class="sp-menu-icon">
+        <input id="sp-menu-icon-checkbox" class="sp-menu-icon-hidden" type="checkbox">
+        <label id="sp-menu-icon-icon" for="sp-menu-icon-checkbox"><span></span></label>
+      </div> -->
+      
 
-</head>
-
-<body>
-  <header>
-    <div id="nav_box">
-      <ul id="nav">
-        <li><a href="#intr">INTRO</a></li>
-        <li><a href="#skill">SKILL</a></li>
-        <li><a href="#prod">PRODUCTION</a></li>
-      </ul>
-    </div>
-  </header>
-
-  <main>
-    <div id="intr" class="container">
-      <div id="top" class="box">
-        <div class="back_color">
-          <img src="images/logo.png" alt="logo">
-          <h1>PORTFOLIO</h1>
-          <h2>Chizuru Mori</h2>
-          <p>TEL：090-4219-6846</p>
-          <p>mail：mori.chizuru@gmail.com</p>
-        </div>
-      </div>
-      <div id="career" class="box">
-        <ul class="timeline">
-          <li>
-            <div class="back_color">
-              <p class="timeline-date">2019.04</p>
-              <div class="timeline-content">
-                <h3>HAL名古屋 高度情報学部入学</h3>
-                <p>
-                  高度情報学部の4年制課程を専攻する。<br>
-                  初めてプログラミングを学ぶ。
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="back_color">
-              <p class="timeline-date">2021.10</p>
-              <div class="timeline-content">
-                <h3>Web開発会社 SE アルバイト</h3>
-                <p>
-                  1ヵ月のインターンシップを終え、<br>
-                  そのままアルバイトとして3ヵ月間働く。<br>
-                  市営サイトの設計・テストを行った。
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="back_color">
-              <p class="timeline-date">2023.03</p>
-              <div class="timeline-content">
-                <h3>システム開発企業 SE アルバイト</h3>
-                <p>
-                  3月から専門学校の授業がないため、<br>
-                  内定をもらった会社でアルバイトとして働く。
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="back_color">
-              <p class="timeline-date">2023.03</p>
-              <div class="timeline-content">
-                <h3>HAL名古屋 高度情報学部</h3>
-                <p>
-                  4年間SEとしての知識を学んだ学校を卒業。
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="back_color">
-              <p class="timeline-date">2023.04</p>
-              <div class="timeline-content">
-                <h3>システム開発企業 SE 正社員</h3>
-                <p>
-                  正社員として、アルバイトで行っていた仕事を<br>
-                  引き続き行うとともに、新たなプロジェクトに参加する。
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div id="skill" class="container">
-      <div class="box">
-        <h2>SKILL</h2>
-        <h3>プログラミング言語</h3>
-        <div class="back_color">
-          <p>C#・JAVA・PHP</p>
-          <p>Python・JavaScript・C++</p>
-        </div>
-        <h3>資格</h3>
-        <div class="back_color">
-          <p>基本情報技術者資格</p>
-          <p>自動車運転免許</p>
-        </div>
-        <h3>その他</h3>
-        <div class="back_color">
-          <p>Unity・Figma・GitHub</p>
-          <p>Docker・Linux・MySQL・PostgreSQL</p>
-        </div>
-      </div>
-      <div class="box">
-        <h2>CAREER</h2>
-        <table>
-          <tr>
-            <td>システム開発</td>
-            <td>企業間ECサイト</td>
-          </tr>
-          <tr>
-            <td>プロジェクト規模</td>
-            <td>6人</td>
-          </tr>
-          <tr>
-            <td>担当</td>
-            <td>設計・開発</td>
-          </tr>
-          <tr>
-            <td>開発環境</td>
-            <td>
-              Ubntu・Docker・PostgreSQL・AWS・C#・Angular
-            </td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td>システム開発</td>
-            <td>社内システム</td>
-          </tr>
-          <tr>
-            <td>プロジェクト規模</td>
-            <td>2人</td>
-          </tr>
-          <tr>
-            <td>担当</td>
-            <td>設計・開発・テスト</td>
-          </tr>
-          <tr>
-            <td>開発環境</td>
-            <td>
-              Windowsフォーム・C#・VBA
-            </td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td>システム開発</td>
-            <td>市営サイト</td>
-          </tr>
-          <tr>
-            <td>プロジェクト規模</td>
-            <td>5人</td>
-          </tr>
-          <tr>
-            <td>担当</td>
-            <td>設計・テスト</td>
-          </tr>
-          <tr>
-            <td>使用ソフト</td>
-            <td>
-              Figma
-            </td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td>営業</td>
-            <td>システム導入</td>
-          </tr>
-          <tr>
-            <td>担当</td>
-            <td>操作説明・インストール・サポート</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div id="prod">
-      <div id="prod_header">
-        <h2>PRODUCTION</h2>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="prod_item box">
-            <div class="back_color">
-              <img src="images/PAPA1.jpg" alt="作品画像">
-              <h3>PAPA</h3>
-              <p>
-                専門学校の卒業制作で作成。<br>
-                MR技術を用いリモートワークシステム。<br>
-                開発環境：Azure・Unity・C#・GitHub・Docker
-              </p>
-              <div class="btn ">
-                <a href="https://miraisozoten.com/hal_nagoya/works/315/">作品サイト</a>
-              </div>
-            </div>
-          </div>
-          <div class="prod_item box">
-            <div class="back_color">
-              <img src="images/Naruho.png" alt="作品画像">
-              <h3>なるホー</h3>
-              <p>
-                自動採点アプリ。<br>
-                解答用紙をカメラスキャンし、自動で採点する。<br>
-                開発環境：Azure・AndroidStudio・JAVA
-              </p>
-              <div class="btn ">
-                <a href="https://github.com/chizuru1227/Android_G3.git">Git Hub</a>
-              </div>
-            </div>
-          </div>
-          <div class="prod_item box">
-            <div class="back_color">
-              <img src="images/android.png" alt="作品画像">
-              <h3>Androidアプリ</h3>
-              <p>
-                ボールをはじくAndroidアプリ。<br>
-                はじいた回数が増えるとバーが短くなる。
-              </p>
-              <div class="btn ">
-                <a href="https://github.com/chizuru1227/AndroidGame.git">Git Hub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="prod_item box">
-            <div class="back_color">
-              <img src="images/js_game.png" alt="作品画像">
-              <h3>真剣衰弱</h3>
-              <p>
-                始めて授業でjsを習った際に作成。<br>
-                ４人まで対戦できるよう機能を追加。<br>
-                開発言語：JavaScript・HTML・CSS
-              </p>
-              <div class="btn ">
-                <a href="https://chizuru1227.github.io/JS21/index.html">Git Hub</a>
-              </div>
-            </div>
+      <div class="cp_cont">
+        <div class="cp_offcm01">
+          <input type="checkbox" id="cp_toggle01" />
+          <label id="sp-menu-icon-icon" for="cp_toggle01"><span></span></label>
+          <div id="nav_box" class="cp_menu">
+            <ul id="nav">
+              <li><a href="#intr">TOP</a></li>
+              <li><a href="#skill">SKILL</a></li>
+              <li><a href="#prod">PRODUCTION</a></li>
+            </ul>
           </div>
         </div>
       </div>
-  </main>
 
-  <footer>
-    Copyright © 2024 Mori Chizuru ALL Rights Reserved.
-  </footer>
+      <!-- 
+      <div class="cp_cont">
+        <div class="cp_offcm01">
+          <input type="checkbox" id="cp_toggle01" />
+          <label for="cp_toggle01"><span></span></label>
+          <div id="nav_box" class="cp_menu">
+            <ul id="nav">
+              <li><a href="#intr">TOP</a></li>
+              <li><a href="#skill">SKILL</a></li>
+              <li><a href="#prod">PRODUCTION</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
+      
+    </header>
 
-</body>
+    <main>
+      <div id="intr" class="container">
+        <div id="top" class="box">
+          <div class="back_color">
+            <img src="images/logo.png" alt="logo" />
+            <h1>PORTFOLIO</h1>
+            <h2>Chizuru Mori</h2>
+            <p>TEL：090-4219-6846</p>
+            <p>mail：mori.chizuru@gmail.com</p>
+          </div>
+        </div>
+        <div id="career" class="box">
+          <ul class="timeline">
+            <li>
+              <div class="back_color">
+                <p class="timeline-date">2019.04</p>
+                <div class="timeline-content">
+                  <h3>HAL名古屋 高度情報学部入学</h3>
+                  <p>
+                    高度情報学部の4年制課程を専攻する。<br />
+                    初めてプログラミングを学ぶ。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="back_color">
+                <p class="timeline-date">2021.10</p>
+                <div class="timeline-content">
+                  <h3>Web開発会社 SE アルバイト</h3>
+                  <p>
+                    1ヵ月のインターンシップを終え、<br />
+                    そのままアルバイトとして3ヵ月間働く。<br />
+                    市営サイトの設計・テストを行った。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="back_color">
+                <p class="timeline-date">2023.03</p>
+                <div class="timeline-content">
+                  <h3>システム開発企業 SE アルバイト</h3>
+                  <p>
+                    3月から専門学校の授業がないため、<br />
+                    内定をもらった会社でアルバイトとして働く。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="back_color">
+                <p class="timeline-date">2023.03</p>
+                <div class="timeline-content">
+                  <h3>HAL名古屋 高度情報学部</h3>
+                  <p>4年間SEとしての知識を学んだ学校を卒業。</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="back_color">
+                <p class="timeline-date">2023.04</p>
+                <div class="timeline-content">
+                  <h3>システム開発企業 SE 正社員</h3>
+                  <p>
+                    正社員として、アルバイトで行っていた仕事を<br />
+                    引き続き行うとともに、新たなプロジェクトに参加する。
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
 
+      <div id="skill" class="container">
+        <div class="box">
+          <h2 class="sticky">SKILL</h2>
+          <h3>プログラミング言語</h3>
+          <div class="back_color">
+            <p>C#・JAVA・PHP</p>
+            <p>Python・JavaScript・C++</p>
+          </div>
+          <h3>資格</h3>
+          <div class="back_color">
+            <p>基本情報技術者資格</p>
+            <p>自動車運転免許</p>
+          </div>
+          <h3>その他</h3>
+          <div class="back_color">
+            <p>Unity・Figma・GitHub</p>
+            <p>Docker・Linux・MySQL・PostgreSQL</p>
+          </div>
+        </div>
+        <div class="box">
+          <h2 class="sticky">CAREER</h2>
+          <table>
+            <tr>
+              <td>システム開発</td>
+              <td>企業間ECサイト</td>
+            </tr>
+            <tr>
+              <td>プロジェクト規模</td>
+              <td>6人</td>
+            </tr>
+            <tr>
+              <td>担当</td>
+              <td>設計・開発</td>
+            </tr>
+            <tr>
+              <td>開発環境</td>
+              <td>Ubntu・Docker・PostgreSQL・AWS・C#・Angular</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td>システム開発</td>
+              <td>社内システム</td>
+            </tr>
+            <tr>
+              <td>プロジェクト規模</td>
+              <td>2人</td>
+            </tr>
+            <tr>
+              <td>担当</td>
+              <td>設計・開発・テスト</td>
+            </tr>
+            <tr>
+              <td>開発環境</td>
+              <td>Windowsフォーム・C#・VBA</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td>システム開発</td>
+              <td>市営サイト</td>
+            </tr>
+            <tr>
+              <td>プロジェクト規模</td>
+              <td>5人</td>
+            </tr>
+            <tr>
+              <td>担当</td>
+              <td>設計・テスト</td>
+            </tr>
+            <tr>
+              <td>使用ソフト</td>
+              <td>Figma</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td>営業</td>
+              <td>システム導入</td>
+            </tr>
+            <tr>
+              <td>担当</td>
+              <td>操作説明・インストール・サポート</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div id="prod">
+        <div id="prod_header" class="sticky">
+          <h2>PRODUCTION</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="prod_item box">
+              <div class="back_color">
+                <img src="images/PAPA1.jpg" alt="作品画像" />
+                <h3>PAPA</h3>
+                <p>
+                  専門学校の卒業制作で作成。<br />
+                  MR技術を用いリモートワークシステム。<br />
+                  開発環境：Azure・Unity・C#・GitHub・Docker
+                </p>
+                <div class="btn">
+                  <a href="https://miraisozoten.com/hal_nagoya/works/315/"
+                    >作品サイト</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="prod_item box">
+              <div class="back_color">
+                <img src="images/Naruho.png" alt="作品画像" />
+                <h3>なるホー</h3>
+                <p>
+                  自動採点アプリ。<br />
+                  解答用紙をカメラスキャンし、自動で採点する。<br />
+                  開発環境：Azure・AndroidStudio・JAVA
+                </p>
+                <div class="btn">
+                  <a href="https://github.com/chizuru1227/Android_G3.git"
+                    >Git Hub</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="prod_item box">
+              <div class="back_color">
+                <img src="images/android.png" alt="作品画像" />
+                <h3>Androidアプリ</h3>
+                <p>
+                  ボールをはじくAndroidアプリ。<br />
+                  はじいた回数が増えるとバーが短くなる。
+                </p>
+                <div class="btn">
+                  <a href="https://github.com/chizuru1227/AndroidGame.git"
+                    >Git Hub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="prod_item box">
+              <div class="back_color">
+                <img src="images/js_game.png" alt="作品画像" />
+                <h3>真剣衰弱</h3>
+                <p>
+                  始めて授業でjsを習った際に作成。<br />
+                  ４人まで対戦できるよう機能を追加。<br />
+                  開発言語：JavaScript・HTML・CSS
+                </p>
+                <div class="btn">
+                  <a href="https://chizuru1227.github.io/JS21/index.html"
+                    >Git Hub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>Copyright © 2024 Mori Chizuru ALL Rights Reserved.</footer>
+  </body>
 </html>

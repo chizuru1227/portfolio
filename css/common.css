@@ -5,7 +5,7 @@ body {
   text-align: left;
   color: #000;
   background-color: #edfff7;
- 
+
   font-family: "Kiwi Maru", serif;
   font-weight: 400;
   font-style: normal;
@@ -18,70 +18,66 @@ header {
   position: fixed;
   z-index: 999;
 }
+
 h1 {
   font-size: 2rem;
 }
-h2{
+
+h2 {
   font-size: 1.5rem;
 }
+
 h3 p a td li {
   font-size: 1rem;
 }
 
-
-#nav_box {
-  margin: 0 0 0 auto;
-  height: 50px;
-  width: 490px;
-}
-#nav {
-  list-style: none;
-  overflow: hidden;
-}
-#nav li {
-  width: 160px;
-  text-align: center;
-  background-color: #333;
-  float: left;
-  height: 50px;
-  line-height: 50px;
-  margin-right: 2px;
-}
-#nav li a {
-  text-decoration: none;
-  color: #edfff7;
-  font-weight: bold;
-  padding: 20px;
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #edfff7ba;
 }
 
 .container {
   width: 100%;
   padding-top: 10%;
   margin: 0 auto;
-  text-align: center;
+  text-align: center
 }
 
 
 .box {
   margin: 10vh 0;
 }
+
 .box h2 {
   padding: 1rem 0;
 }
+
 .box h3 {
   padding: 1rem 0;
 }
+
 .box table {
   margin: 2rem auto;
   text-align: left;
   width: 75%;
 }
-.box table tr > td{
+
+.box table tr>td {
   width: 10rem;
 }
+
 .box td {
   padding: 0.5rem 2rem 0 0;
 }
+
+
+.cp_offcm01 #cp_toggle01 {
+  position: absolute;
+  display: none;
+  opacity: 0;
+}
+
 #prod .box {
   width: auto;
 }
@@ -89,57 +85,71 @@ h3 p a td li {
 .timeline {
   list-style: none;
 }
-.timeline > li {
+
+.timeline>li {
   margin-bottom: 2rem;
 }
 
-#top{
+#top {
   height: 100%;
   margin-top: 15%;
 }
-#top h1{
+
+#top h1 {
   margin: 1rem;
 }
-#top p{
+
+#top p {
   margin: 1rem;
 }
-#top img{
+
+#top img {
   width: 50%;
 }
+
 .back_color {
   width: 75%;
   margin: 0 auto;
   padding: 1rem;
   background-color: #dffff1;
 }
-#skill table{
+
+#skill table {
   background-color: #dffff1;
 }
-#skill td{
+
+#skill td {
   padding: 0.5rem 1rem;
 }
-#prod > .container {
+
+#prod>.container {
   padding: 0;
 }
+
 #prod_header {
   margin-top: 10%;
+  padding: 1rem 0;
   text-align: center;
 }
+
 .prod_item img {
   width: 70vw;
 }
+
 .btn {
-  margin-top  : 1rem;
+  margin-top: 1rem;
 }
+
 .btn a {
   padding: 0 1rem;
   color: #162820;
-	border: #9ecdb8 1px solid;
-	border-radius: 35px;
+  border: #9ecdb8 1px solid;
+  border-radius: 35px;
   text-decoration: none;
 }
+
 .btn a:hover {
-	background-color: #bfe1d2;
+  background-color: #bfe1d2;
 }
 
 footer {
@@ -147,44 +157,84 @@ footer {
 }
 
 /* for Desktop */
-@media ( min-width : 1161px ){
+@media (min-width : 1161px) {
   .container {
     text-align: center;
     display: table;
   }
-  .row{
-    display: table-row; 
+
+  .row {
+    display: table-row;
   }
-  .box{
+
+  .box {
     width: 50%;
     display: table-cell;
-    vertical-align: middle; 
-  } 
+    vertical-align: middle;
+  }
+
+  .sticky {
+    position: static;
+  }
+
+  #nav_box {
+    margin: 0 0 0 auto;
+    height: 50px;
+    width: 490px;
+  }
   
-  #top{
+  #nav {
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  #nav li {
+    width: 160px;
+    text-align: center;
+    background-color: #333;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 2px;
+  }
+  
+  #nav li a {
+    text-decoration: none;
+    color: #edfff7;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  #top {
     height: auto;
   }
-  #top img{
+
+  #top img {
     width: 40%;
   }
-  #career .back_color{
+
+  #career .back_color {
     width: 100%;
     padding: 0rem;
   }
+
   #prod .container {
     padding: 0;
   }
+
   #prod .container {
     padding: 0;
   }
+
   #prod .box {
     padding: 5vh 0;
   }
+
   .prod_item img {
     width: 25vw;
   }
 
-  .timeline > li {
+  .timeline>li {
     width: 90%;
     overflow: hidden;
     margin: 0;
@@ -192,17 +242,20 @@ footer {
     text-align: left;
     background-color: #dffff1;
   }
+
   .timeline-date {
     width: 110px;
     float: left;
     margin-top: 20px;
   }
+
   .timeline-content {
     width: 75%;
     float: left;
     border-left: 3px #bfbfbf solid;
     padding-left: 30px;
   }
+
   .timeline-content:before {
     content: '';
     width: 12px;
@@ -213,4 +266,4 @@ footer {
     top: 24px;
     border-radius: 100%;
   }
-} 
+}
